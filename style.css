@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    }
+    .menu{
+        height: 5%;
+        width: 100%;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        /* background: transparent; */
+        
+    }
+    .menu .containmenu{
+        height: 100%;
+        width: 87%;
+        background-color:pink ;
+        /* background-color: transparent; */
+        border-radius:20px ;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .menu .containmenu .logo{
+        height: 100%;
+        width: 20%;
+        background-color: aliceblue;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+    .menu .containmenu .logo p{
+        text-align: left;
+       font-size-adjust: initial;
+        }
+        .menu .containmenu .options{
+            height: 100%;
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+            border-radius: 20px;
+            justify-content: space-around;
+            
+
+        }
+        .options p{
+            font-size: 2vh;
+        }
+   .video{
+   height: 100%;
+   width: 100%;
+    
+   }
+   .video div{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(132, 173, 209);
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .video div img{
+    height: 97%;
+    width: 100%;
+   }
