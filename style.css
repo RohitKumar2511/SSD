@@ -85,3 +85,51 @@ body{
     height: 97%;
     width: 100%;
    }
+
+
+   .container2{
+    height: 40%;
+    width: 100%;
+    border: 1px solid green;
+    margin-top: 5vh;
+    display: flex;
+    }
+    
+    
+    
+    
+    
+    
+    .one{
+        height: 100%;
+        width: 36%;
+        background-color: aliceblue;
+        padding-top: 7vh;
+    }
+    .one h1{
+        word-wrap: break-word;
+        margin-left: 5vh;
+        font-size: 4vh;
+    }
+    .one p{
+        margin-top: 2vh;
+        word-wrap: break-word;
+        margin-left: 5vh;
+        font-size: 1.7vh;
+        font-weight: bold;
+    }
+    .one button{
+        margin-left: 5vh;
+        margin-top: 3vh;
+        background-color: antiquewhite;
+        height: 6vh;
+        width: 13vh;
+        font-size: 1.4vh;
+        font-weight: 900;
+        border-radius: 20px;
+        padding: 0;
+        word-wrap: break-word;
+        
+    }
+    
+    
